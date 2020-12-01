@@ -10,7 +10,7 @@ class Database
 {
 public:
     Database();
-    void connect_database(const std::string dbAlias, const std::string  driver);             //dbAlias - database name
+    void connect_database(const std::string dbAlias, const std::string  driver);           
     void create_table(std::string tableName,const std::vector <std::string> &header);
     void insert_raw(std::string tableName,const std::vector <std::string> &data);
     //bool load_raw(std::string tableName);
