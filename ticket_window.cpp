@@ -1,7 +1,7 @@
 #include "ticket_window.h"
 #include "ticketbase.h"
 
-Ticket_Window::Ticket_Window(TicketBase &ticketBase) : _ticketBase(ticketBase)      //инициал. переменной
+Ticket_Window::Ticket_Window(TicketBase &ticketBase) : _ticketBase(ticketBase) 
 {
 std::cout << "Working in Ticket_Window::Ticket_Window..." << std::endl;
 }
