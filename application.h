@@ -14,7 +14,7 @@ public:
     bool get_menu_choice();
     // functions for menu
     void buying_ticket();
-    //make clear code
+    
 
 private:
     Database& _dataBase;
