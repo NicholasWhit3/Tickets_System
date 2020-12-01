@@ -201,7 +201,7 @@ std::string Airport::gen_destination()
          int i = rand() % sizeof(destination);
          return destination[i];
      }
-      // размер вектора, случайное число % размер. от 0 до размера вектора. Вернуть случайное число из вектора.
+    
 }
 
 
