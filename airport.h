@@ -36,7 +36,7 @@ private:
     bool _parking_place;
     bool _taxi;
     Database& _dataBase;
-    TicketBase& _ticket_base;                           // экземпляр
+    TicketBase& _ticket_base;                          
     Ticket_Window& _ticket_window;
     std::string gen_destination();
 
